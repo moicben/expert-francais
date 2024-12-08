@@ -28,11 +28,11 @@ export default function Index({ posts, globalData }) {
                 href={`/posts/[slug]`}
                 className="block px-6 py-6 lg:py-10 lg:px-16 focus:outline-none focus:ring-4">
 
-                {post.data.date && (
+                {/* {post.data.date && (
                   <p className="mb-3 font-bold uppercase opacity-60" data-sb-field-path="date">
                     {post.data.date}
                   </p>
-                )}
+                )} */}
                 <h2 className="text-2xl md:text-3xl" data-sb-field-path="title">{post.data.title}</h2>
                 {post.data.description && (
                   <p className="mt-3 text-lg opacity-60" data-sb-field-path="description">
@@ -45,6 +45,11 @@ export default function Index({ posts, globalData }) {
             </li>
           ))}
         </ul>
+
+        <h3 className="m-12 text-3xl text-center lg:text-5xl">
+          A propos de {globalData.name}
+        </h3>
+        <p className='text-center'>{globalData.bio}</p>
       </main>
       <Footer copyrightText={globalData.footerText} />
     </Layout>

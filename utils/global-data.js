@@ -3,17 +3,16 @@ export const getGlobalData = () => {
 
   const logo = "/images/alexandra-georges.png"; // Chemin mis à jour
 
-  const blogTitle = process.env.BLOG_TITLE
-    ? decodeURI(process.env.BLOG_TITLE)
-    : 'Next.js Blog Theme';
+  const bio = "dqdq";
 
-  const footerText = process.env.BLOG_FOOTER_TEXT
-    ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+  const blogTitle = 'Next.js Blog Theme';
+
+  const footerText = 'All rights reserved 2024.';
 
   return {
     name,
     logo,
+    bio,
     blogTitle,
     footerText,
   };
