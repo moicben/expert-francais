@@ -12,7 +12,7 @@ export default function Index({ posts, globalData }) {
   return (
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
-      <Header name={globalData.name} />
+      <Header name={globalData.name} logo={globalData.logo} />
       <main className="w-full">
         <h1 className="mb-12 text-3xl text-center lg:text-5xl">
           {globalData.blogTitle}
@@ -47,14 +47,6 @@ export default function Index({ posts, globalData }) {
         </ul>
       </main>
       <Footer copyrightText={globalData.footerText} />
-      <GradientBackground
-        variant="large"
-        className="fixed top-20 opacity-40 dark:opacity-60"
-      />
-      <GradientBackground
-        variant="small"
-        className="absolute bottom-0 opacity-20 dark:opacity-10"
-      />
     </Layout>
   );
 }
