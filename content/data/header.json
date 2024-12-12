@@ -41,7 +41,7 @@
     ],
     "secondaryLinks": [
         {
-            "label": "Panier",
+            "label": "Mon panier",
             "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
