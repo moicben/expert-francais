@@ -123,13 +123,6 @@ sections:
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
     media:
       url: /images/hero2.svg
       altText: Fun feature preview
