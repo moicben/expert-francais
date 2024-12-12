@@ -23,7 +23,7 @@
         {
             "label": "A propos",
             "altText": "Blog",
-            "url": "/blog",
+            "url": "/#a-propos",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
