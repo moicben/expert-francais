@@ -11,6 +11,7 @@
         "@algolia/autocomplete-theme-classic": "^1.17.1",
         "algoliasearch": "^4.24.0",
         "classnames": "^2.5.1",
+        "content-ops-starter": "file:",
         "dayjs": "^1.11.11",
         "front-matter": "^4.0.2",
         "glob": "^10.4.2",

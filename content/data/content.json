@@ -1,0 +1,45 @@
+{
+    "sites": [
+        {
+            "id": 1,
+            "domain": "bambinenchante.expert-francais.shop",
+            "source": "https://www.amazon.fr/gp/bestsellers/baby/3966365031",
+            "heroTitle": "Un Monde de Douceur pour Votre Bébé",
+            "heroDescription": "Découvrez notre sélection exclusive de puériculture, conçue avec amour en France pour le cocon parfait de votre bébé.",
+            "introTitle": "Bienvenue chez Bébé Rêve",
+            "introDescription": "Chez Bébé Rêve, nous nous engageons à offrir à votre enfant le meilleur dès ses premiers instants. Chaque article est une création soigneusement pensée pour garantir confort et sécurité, tout en célébrant l'artisanat français.",
+            "shopName": "Bébé Rêve",
+            "aboutTitle": "Notre Philosophie en Quelques Mots",
+            "aboutDescription": "Bébé Rêve s'efforce d'enchanter les premières années de votre bébé avec des produits aux qualités inégalées. Confiance et authenticité sont au cœur de notre démarche, avec une fabrication 100% française qui assure des standards de haute qualité. Notre objectif est d'accompagner les jeunes parents avec des solutions créatives et locales, rendant chaque moment plus spécial.",
+            "testimonial1": "\"Les produits de Bébé Rêve ont transformé notre quotidien. La qualité est exceptionnelle et le style enchanteur!\"",
+            "author1": "Émilie L.",
+            "testimonial2": "\"Je suis ravi de mes achats. Enfin une boutique qui propose du vrai Made in France et ça fait toute la différence!\"",
+            "author2": "Thomas H.",
+            "testimonial3": "\"L'accueil et l'accompagnement chez Bébé Rêve sont sans pareil. Mon bébé profite du meilleur grâce à eux!\"",
+            "author3": "Sophie G.",
+            "contactTitle": "Contactez-nous dès aujourd'hui!",
+            "contactDescription": "Une question? Besoin de conseils? Notre équipe est à votre disposition pour vous aider à chaque étape. N'hésitez pas à nous contacter pour une expérience encore plus personnalisée.",
+            "footerText": "Chez Bébé Rêve, notre expertise réside dans notre passion pour l'excellence et notre désir de répondre aux besoins uniques des familles françaises. Plongez dans l'univers du bien-être et de la qualité inégalée, où chaque produit est un gage de confiance."
+        },
+        {
+            "id": 2,
+            "source": "https://www.amazon.fr/gp/bestsellers/automotive/2429681031/ref=zg_bs_nav_automotive_1",
+            "heroTitle": "Faites Rugir l'évasion!",
+            "heroDescription": "Explorez notre gamme exceptionnelle de produits Auto et Moto, fabriqués avec passion en France, pour des performances ultimes sur les routes françaises.",
+            "introTitle": "Bienvenue chez Carros Rapides!",
+            "introDescription": "Chez Carros Rapides, nous incarnons l'excellence de la fabrication française pour tous vos besoins en auto et moto. Découvrez pourquoi les passionnés français nous font confiance pour améliorer leurs véhicules avec des pièces et accessoires de qualité supérieure, conçus pour sublimer vos trajets quotidiens.",
+            "shopName": "Carros Rapides",
+            "aboutTitle": "La passion de l'Automobile et de la Moto",
+            "aboutDescription": "Carros Rapides est une boutique d'exception dédiée aux amateurs d'auto et moto en quête de qualité irréprochable. Fabriquées en France, nos pièces et accessoires garantissent une durabilité sans égal, pensée pour les routes de France. Notre expertise locale nous permet de proposer des produits parfaitement adaptés aux attentes des passionnés français, alliant sécurité, style et performance.",
+            "testimonial1": "\"J'ai enfin trouvé des accessoires adaptés à ma moto qui allient esthétisme et sécurité, le tout Made in France!\"",
+            "author1": "Julien M.",
+            "testimonial2": "\"Grâce à Carros Rapides, mon auto a retrouvé une seconde jeunesse. La qualité des produits est exceptionnelle. Je recommande chaudement!\"",
+            "author2": "Sophie L.",
+            "testimonial3": "\"Service impeccable et des produits vraiment performants! Je suis ravi de ma nouvelle acquisition chez Carros Rapides.\"",
+            "author3": "Aurélien D.",
+            "contactTitle": "Contactez-nous et Vivez l'Aventure!",
+            "contactDescription": "N'hésitez pas à nous joindre pour toute question ou demande spécifique. Notre équipe passionnée se fera un plaisir de vous accompagner dans le choix de vos accessoires auto et moto.",
+            "footerText": "Carros Rapides, experts en accessoires Auto et Moto, met tout son savoir-faire français à votre service pour transformer vos trajets en véritables moments de plaisir."
+        }
+    ]
+}

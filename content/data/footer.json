@@ -87,27 +87,23 @@
     ],
     "legalLinks": [
         {
-            "type": "Link",
-            "label": "Mentions Légales",
-            "altText": "",
-            "url": "/mentions-legales",
-            "showIcon": false,
+            "label": "Terms",
+            "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
-            "style": "primary",
-            "elementId": ""
+            "style": "secondary",
+            "type": "Link"
         },
         {
-            "label": "Conditions Générales",
-            "url": "/conditions-generales",
+            "label": "Privacy",
+            "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Trafik](https://nuanced-slider-508222.framer.app/)\n",
+    "copyrightText": "Powered by [Netlify Create](https://www.netlify.com/platform/create/)",
     "colors": "bg-dark-fg-light",
-    "type": "Footer",
-    "title": "Boutique en ligne"
+    "type": "Footer"
 }
