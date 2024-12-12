@@ -14,7 +14,7 @@
     "primaryLinks": [
         {
             "label": "Tous les produits",
-            "url": "/pricing",
+            "url": "/boutique",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
