@@ -3,6 +3,8 @@ import { allContent } from '../utils/local-content';
 import { getComponent } from '../components/components-registry';
 import { resolveStaticProps } from '../utils/static-props-resolvers';
 import { resolveStaticPaths } from '../utils/static-paths-resolvers';
+import headerData from '../../content/data/header.json';
+import footerData from '../../content/data/footer.json';
 
 function Page(props) {
     const { page, site } = props;
@@ -27,6 +29,29 @@ export async function getStaticProps({ params }) {
     const data = allContent();
     const urlPath = '/' + (params.slug || []).join('/');
     const props = await resolveStaticProps(urlPath, data);
+
+    // Ensure site is initialized
+    props.site = props.site || {};
+
+    // Validate header and footer
+    props.site.header = {
+        title: headerData.title,
+        primaryLinks: headerData.primaryLinks,
+        secondaryLinks: headerData.secondaryLinks,
+        variant: headerData.variant,
+        colors: headerData.colors,
+        logo: headerData.logo
+    };
+    props.site.footer = {
+        logo: footerData.logo,
+        text: footerData.text,
+        primaryLinks: footerData.primaryLinks,
+        secondaryLinks: footerData.secondaryLinks,
+        socialLinks: footerData.socialLinks,
+        legalLinks: footerData.legalLinks,
+        copyrightText: footerData.copyrightText,
+        colors: footerData.colors
+    };
 
     return { props };
 }
