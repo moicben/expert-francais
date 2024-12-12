@@ -594,29 +594,6 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: row
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
-        image:
-          url: /images/abstract-feature2.svg
-          altText: Placeholder image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
       - title: Feature Item Three
         tagline: This is the tagline
         subtitle: This is the item subtitle
