@@ -42,7 +42,7 @@
     "secondaryLinks": [
         {
             "label": "Mon panier",
-            "url": "/",
+            "url": "/panier",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "primary",
