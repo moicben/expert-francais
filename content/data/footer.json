@@ -87,23 +87,26 @@
     ],
     "legalLinks": [
         {
-            "label": "Terms",
-            "url": "/",
+            "type": "Link",
+            "label": "Mentions Légales",
+            "altText": "",
+            "url": "/mentions-legales",
+            "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
+            "style": "primary",
+            "elementId": ""
         },
         {
-            "label": "Privacy",
-            "url": "/",
+            "label": "Conditions Générales",
+            "url": "/conditions-generales",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Netlify Create](https://www.netlify.com/platform/create/)",
+    "copyrightText": "Powered by [Trafik](https://nuanced-slider-508222.framer.app/)\n",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }
