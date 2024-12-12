@@ -118,7 +118,7 @@ sections:
       posts.
     actions:
       - label: Tous les produits
-        url: /
+        url: /boutique
         icon: arrowRight
         iconPosition: right
         style: secondary
