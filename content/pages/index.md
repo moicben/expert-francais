@@ -570,18 +570,20 @@ sections:
       type: TitleBlock
     subtitle: Featured items section subtitle
     items:
-      - title: Feature Item One
+      - type: FeaturedItem
+        title: Feature Item One
         tagline: This is the tagline
         subtitle: This is the item subtitle
         text: |
           Follow the tutorial to build your first Netlify Create site.
         image:
+          type: ImageBlock
           url: /images/abstract-feature1.svg
-          altText: Placeholder Image
+          altText: Placeholder text
           styles:
             self:
               borderRadius: x-large
-          type: ImageBlock
+        actions: []
         colors: bg-light-fg-dark
         styles:
           self:
@@ -591,8 +593,7 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
+            flexDirection: row
       - title: Feature Item Two
         tagline: This is the tagline
         subtitle: This is the item subtitle
