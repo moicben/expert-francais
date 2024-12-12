@@ -90,7 +90,7 @@
             "type": "Link",
             "label": "Mentions Légales",
             "altText": "",
-            "url": "/",
+            "url": "/mentions-legales",
             "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
