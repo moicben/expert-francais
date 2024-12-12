@@ -62,7 +62,7 @@ sections:
         self:
           textAlign: center
       type: Badge
-    colors: bg-light-fg-dark
+    colors: bg-neutral-fg-dark
     styles:
       self:
         flexDirection: col
