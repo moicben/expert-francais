@@ -99,7 +99,7 @@
         },
         {
             "label": "Conditions Générales",
-            "url": "/cgv",
+            "url": "/conditions-generales",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
