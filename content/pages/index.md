@@ -436,6 +436,7 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: row
+            justifyContent: center
       - type: FeaturedItem
         title: ''
         tagline: This is the tagline
