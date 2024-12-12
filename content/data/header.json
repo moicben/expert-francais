@@ -43,7 +43,7 @@
     "title": "Boutique en ligne",
     "logo": {
         "type": "ImageBlock",
-        "url": "/images/favicon.svg",
+        "url": "/images/icon3.svg",
         "altText": "Image alt text placeholder",
         "elementId": "",
         "styles": {
